@@ -20,13 +20,17 @@ p {
 section {
   padding: 25px 0 35px;
   background: #fff;
+  overflow-x:hidden;
 }
 
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
+  overflow-x:hidden;
 }
-
+.container{
+  overflow-x:hidden;
+}
 a { color: #3CC; }
 
 a:hover { color: #FF0; }
